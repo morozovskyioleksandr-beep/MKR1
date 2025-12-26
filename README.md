@@ -11,12 +11,12 @@ interface Message {
 class SimpleMessage implements Message {
     private String text;
 
-    public SimpleMessage(String text) {
+public SimpleMessage(String text) {
         this.text = text;
     }
 
-    @Override
+@Override
     public String getContent() {
         return text;
     }
-}
+}                                                                                                
